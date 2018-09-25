@@ -39,4 +39,9 @@ end
 Here, we re-define the `#log_in` method and tell it to inherit any functionality of the `#log_in` method defined in the parent, or "super", class, which is `User`. 
 
 In the `#log_in` method above, the `super` keyword will call on the `#log_in` method as defined in the super class. *Then*, the additional code that we're adding into our `Student#log_in` method will also run. We have therefore supercharged our `#log_in` method, for the `Student` class only. 
+
+## Does this need an update?
+
+Please open a [GitHub issue](https://github.com/learn-co-curriculum/phrg-ruby-super-inheritance-/issues) or [pull-request](https://github.com/learn-co-curriculum/phrg-ruby-super-inheritance-/pulls). Provide a detailed description that explains the issue you have found or the change you are proposing. Then "@" mention your instructor on the issue or pull-request, and send them a link via Connect.
+
 <p data-visibility='hidden'>PHRG Ruby Inheritance: Using the `super` Keyword</p>
